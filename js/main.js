@@ -4,5 +4,6 @@ const eagle = () => {
   audio.play();
 }
 
-window.addEventListener('click touch', eagle);
+window.addEventListener('click', eagle);
+window.addEventListener('touchstart', eagle);
 
